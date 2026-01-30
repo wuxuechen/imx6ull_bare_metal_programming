@@ -1,0 +1,14 @@
+#ifndef __BSP_LED_H
+#define __BSP_LED_H
+#include "imx6ul.h"
+
+void init_io_led();
+
+void init_led();
+
+void turn_on_led();
+
+void turn_off_led();
+
+void switch_led();
+#endif
